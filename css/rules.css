@@ -1,0 +1,33 @@
+main{padding:40px}
+.rules-list{margin-top:12px}
+.rules-list li{margin:8px 0}
+
+
+table{
+	width:100%;
+	border-collapse:collapse;
+	margin-top:18px;
+	box-shadow:0 2px 6px rgba(11,60,93,0.08);
+}
+table thead th{
+	background:#0B3C5D;
+	color:#fff;
+	padding:12px 14px;
+	text-align:left;
+	border:1px solid #e6eef6;
+}
+table tbody td{
+	padding:12px 14px;
+	border:1px solid #e6eef6;
+	vertical-align:middle;
+	background:#fff;
+}
+table tbody tr:nth-child(even) td{
+	background:#f8fbff;
+}
+table tbody tr:hover td{
+	background:#eef6ff;
+}
+
+
+.table-wrap{overflow-x:auto}

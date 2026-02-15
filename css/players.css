@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f6f9;
+}
+
+
+.section-title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #0b3d5c;
+  padding: 40px 60px 15px;
+}
+
+
+.ranking-row {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 25px 60px;
+  border-bottom: 1px solid #dde3ea;
+  background-color: #ffffff;
+}
+
+.ranking-row.first {
+  background-color: #eef4ff;
+}
+
+
+.rank-number {
+  font-size: 55px;
+  font-weight: bold;
+  width: 70px;
+  text-align: center;
+  color: #0b3d5c;
+}
+
+
+.players {
+  display: flex;
+  gap: 20px;
+}
+
+.player-card {
+  width: 220px;
+  height: 220px;
+  background-color: #d7dde6;
+  border-radius: 12px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 8px;
+  font-weight: 500;
+}
+
+
+.player-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.player-info h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #0b3d5c;
+}
+
+.country {
+  margin-top: 6px;
+  color: #555;
+}
+
+.world-ranking {
+  margin-top: 12px;
+  font-size: 15px;
+  color: #0b3d5c;
+}

@@ -1,0 +1,29 @@
+main{padding:40px}
+h1{color:#0B3C5D;text-align:center}
+.history-content{
+  max-width:900px;
+  margin:0 auto;
+  padding:0 20px;
+}
+.history-content p{
+  color:#333;
+  line-height:1.8;
+  margin-bottom:30px;
+  text-align:justify;
+}
+.history-image{
+  margin:40px 0;
+  text-align:center;
+}
+.history-image img{
+  width: 50vh;
+  height:50vh;
+  border-radius:10px;
+  box-shadow: 0 6px 18px rgba(11,60,93,0.12);
+}
+.history-image figcaption{
+  margin-top:12px;
+  font-size:0.95rem;
+  color:#555;
+  font-style:italic;
+}
