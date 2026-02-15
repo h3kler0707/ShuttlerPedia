@@ -1,6 +1,6 @@
 body{
   margin:0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'JetBrains Mono', monospace;
   background:#fff;
   color:#000000;
   padding-top:calc(4vh + 24px);
